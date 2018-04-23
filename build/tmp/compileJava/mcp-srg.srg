@@ -1,0 +1,5 @@
+FD: net/ccbluex/LiquidBase/injection/mixins/MixinGuiScreen/mc net/ccbluex/LiquidBase/injection/mixins/MixinGuiScreen/field_146297_k
+FD: net/ccbluex/LiquidBase/injection/mixins/MixinMinecraft/currentScreen net/ccbluex/LiquidBase/injection/mixins/MixinMinecraft/field_71462_r
+FD: net/ccbluex/LiquidBase/injection/mixins/MixinRendererLivingEntity/mainModel net/ccbluex/LiquidBase/injection/mixins/MixinRendererLivingEntity/field_77045_g
+MD: net/ccbluex/LiquidBase/injection/mixins/MixinRenderer/bindEntityTexture (Lnet/minecraft/entity/Entity;)Z net/ccbluex/LiquidBase/injection/mixins/MixinRenderer/func_180548_c (Lnet/minecraft/entity/Entity;)Z
+MD: net/ccbluex/LiquidBase/injection/mixins/MixinRendererLivingEntity/renderModel (Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V net/ccbluex/LiquidBase/injection/mixins/MixinRendererLivingEntity/func_77036_a (Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V

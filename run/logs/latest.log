@@ -1,0 +1,203 @@
+[18:59:20] [main/INFO]: Extra: []
+[18:59:20] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Valdemar/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:59:20] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:59:20] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:59:20] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:59:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:59:20] [main/INFO]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
+[18:59:20] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_161\jre
+[18:59:20] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:59:20] [main/INFO]: Found a command line coremod : net.ccbluex.LiquidBase.injection.MixinLoader
+[18:59:20] [main/WARN]: The coremod net.ccbluex.LiquidBase.injection.MixinLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:59:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.6.4 Source=file:/C:/Users/Valdemar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar Env=CLIENT
+[18:59:20] [main/INFO]: Compatibility level set to JAVA_8
+[18:59:20] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:59:20] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[18:59:20] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:59:20] [main/INFO]: Injecting location in coremod net.ccbluex.LiquidBase.injection.MixinLoader
+[18:59:20] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:20] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[18:59:20] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:59:20] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:59:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:59:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:20] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[18:59:21] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[18:59:21] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:21] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:59:21] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[18:59:21] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@7544a1e4
+[18:59:21] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:59:22] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:59:22] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:59:22] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:59:22] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:59:22] [Client thread/INFO]: Setting user: Player441
+[18:59:25] [Client thread/INFO]: LWJGL Version: 2.9.4
+[18:59:26] [Client thread/WARN]: =============================================================
+[18:59:26] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[18:59:26] [Client thread/WARN]: Offendor: com/sun/jna/Native.main([Ljava/lang/String;)V
+[18:59:26] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[18:59:26] [Client thread/WARN]: =============================================================
+[18:59:26] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+// Quite honestly, I wouldn't worry myself about that.
+
+Time: 2018-04-22 18:59
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 315816576 bytes (301 MB) / 688914432 bytes (657 MB) up to 3803185152 bytes (3627 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+MixinLoader (unknown)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 390.77' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
+[18:59:26] [Client thread/INFO]: MinecraftForge v11.15.1.2318 Initialized
+[18:59:26] [Client thread/INFO]: Replaced 229 ore recipies
+[18:59:27] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:59:27] [Client thread/INFO]: Searching U:\Void\run\mods for mods
+[18:59:29] [Client thread/INFO]: Forge Mod Loader has identified 3 mods to load
+[18:59:29] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[18:59:29] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[18:59:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[18:59:29] [Client thread/INFO]: Processing ObjectHolder annotations
+[18:59:29] [Client thread/INFO]: Found 384 ObjectHolder annotations
+[18:59:29] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[18:59:29] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[18:59:30] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[18:59:30] [Client thread/INFO]: Applying holder lookups
+[18:59:30] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:59:30] [Client thread/INFO]: Holder lookups applied
+[18:59:30] [Client thread/INFO]: Injecting itemstacks
+[18:59:30] [Client thread/INFO]: Itemstack injection complete
+[18:59:30] [Forge Version Check/INFO]: [Forge] Found status: AHEAD Target: null
+[18:59:30] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:59:30] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[18:59:30] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:59:30] [Thread-9/INFO]: OpenAL initialized.
+[18:59:30] [Sound Library Loader/INFO]: Sound engine started
+[18:59:36] [Client thread/INFO]: Max texture size: 16384
+[18:59:36] [Client thread/INFO]: Created: 16x16 textures-atlas
+[18:59:36] [Client thread/INFO]: Injecting itemstacks
+[18:59:36] [Client thread/INFO]: Itemstack injection complete
+[18:59:37] [Client thread/INFO]: Forge Mod Loader has successfully loaded 3 mods
+[18:59:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[18:59:37] [Client thread/INFO]: SoundSystem shutting down...
+[18:59:37] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:59:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:59:37] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[18:59:37] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:59:37] [Thread-11/INFO]: OpenAL initialized.
+[18:59:37] [Sound Library Loader/INFO]: Sound engine started
+[18:59:40] [Client thread/INFO]: Max texture size: 16384
+[18:59:40] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:59:40] [Client thread/INFO]: Starting Void b6 by CCBlueX, aakaret
+[18:59:40] [Client thread/INFO]: Void 6 based on LiquidBase by CCBlueX (Copyright 2017)
+[18:59:40] [Client thread/INFO]: [net.minecraft.init.Bootstrap:printToSYSOUT:529]: ---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 2018-04-22 18:59
+Description: Initializing game
+
+java.lang.NullPointerException: Initializing game
+	at net.ccbluex.LiquidBase.module.modules.movement.Sprint.onDisable(Sprint.java:18)
+	at net.ccbluex.LiquidBase.module.Module.setState(Module.java:70)
+	at net.ccbluex.LiquidBase.filesystem.FileManager.loadModules(FileManager.java:93)
+	at net.ccbluex.LiquidBase.LiquidBase.startClient(LiquidBase.java:52)
+	at net.minecraft.client.Minecraft.handler$startClient$zza000(Minecraft.java:3116)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:497)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:329)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.ccbluex.LiquidBase.module.modules.movement.Sprint.onDisable(Sprint.java:18)
+	at net.ccbluex.LiquidBase.module.Module.setState(Module.java:70)
+	at net.ccbluex.LiquidBase.filesystem.FileManager.loadModules(FileManager.java:93)
+	at net.ccbluex.LiquidBase.LiquidBase.startClient(LiquidBase.java:52)
+	at net.minecraft.client.Minecraft.handler$startClient$zza000(Minecraft.java:3116)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:497)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:329)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1055506184 bytes (1006 MB) / 1472724992 bytes (1404 MB) up to 3803185152 bytes (3627 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 3 mods loaded, 3 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forgeBin-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UCHIJA	Forge{11.15.1.2318} [Minecraft Forge] (forgeBin-1.8.9-11.15.1.2318-1.8.9.jar) 
+	Loaded coremods (and transformers): 
+MixinLoader (unknown)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 390.77' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
+	Launched Version: 1.8.9
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1080/PCIe/SSE2 GL version 4.6.0 NVIDIA 390.77, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+[18:59:40] [Client thread/INFO]: [net.minecraft.init.Bootstrap:printToSYSOUT:529]: #@!@# Game crashed! Crash report saved to: #@!@# U:\Void\run\.\crash-reports\crash-2018-04-22_18.59.40-client.txt

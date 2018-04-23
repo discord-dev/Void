@@ -1,0 +1,11 @@
+﻿╭━━╮  ╭━╮
+╰┫┣╯  ┃╭╯
+ ┃┃╭━┳╯╰┳━━╮
+ ┃┃┃╭╋╮╭┫╭╮┃
+╭┫┣┫┃┃┃┃┃╰╯┃
+╰━━┻╯╰┻╯╰━━╯
+------------
+
+Exporting: gradlew --debug build
+
+Args (JVM): -Dfml.coreMods.load=net.ccbluex.LiquidBase.injection.MixinLoader
